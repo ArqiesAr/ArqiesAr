@@ -199,9 +199,9 @@ font-family: JockeyOne;
 
 .dls {
   display: flex;
-  gap: 10px;
-  padding: 10px;
+  gap: 2px;
+  padding: 2px;
   width: 98%;
-  border-radius: 20px;
+  border-radius: 10px;
   border-color: #FFF;
 }
