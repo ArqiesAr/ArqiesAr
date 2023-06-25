@@ -1,14 +1,95 @@
+"use client";
 import Image from 'next/image'
+import logo from './logo.png'
+import TextTransition, { presets } from 'react-text-transition';
+import { motion } from 'framer-motion';
+import React from 'react';
+
+const TEXTS = ['Create', 'Code', 'Design'];
+
+
 
 export default function Home() {
+
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      3000, // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>
-      
-
+    <main className="flex min-h-screen flex-col items-center justify-between">
 
       
+      <div className='maindiv' style={{minHeight:'100%', minWidth: '100%'}}>
+
+  <motion.div className='bigtext flex p-0' initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .5,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .2
+    }
+  },
+}}>
+
+
+        <motion.div className='bigtext flex p-0' initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .5,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .5
+      
+    }
+  },
+}}>
+
+  <h1 className='text'>Let&apos;s </h1> <TextTransition className='animatedText' delay={3} springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>
+ </motion.div>
+
+<motion.div className='profile p-1' initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .5,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: 0.6
+    }
+  },
+}}>
+
+
+
+          <div className='imgname '>
+            <Image src={logo} className='logo'></Image>
+            <h1 className='name'>Arqies</h1>
+          </div>
+            <p className='aboutme'>Hi, I am Arqies. I am a developer who lives in India. I am constantly learning new things and like working on new and unique projects, while improving and expanding my knowledge of different things.</p>
+
+            </motion.div>
+
+        </motion.div>
+
       </div>
+
+
     </main>
   )
 }

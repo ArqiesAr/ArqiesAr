@@ -8,6 +8,15 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@font-face {
+  font-family: JockeyOne;
+  src: url(JockeyOne-Regular.ttf);
+}
+@font-face {
+  font-family: Kanit;
+  src: url(Kanit-Regular.ttf);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -24,4 +33,123 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  
+}
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+.cursor{
+  background-color: #111;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+
+}
+
+.bigtext {
+display: flex;
+flex-wrap:wrap;
+flex-direction: row;
+justify-content: center;
+align-self: center;
+text-align: center;
+gap: 2em;
+}
+
+
+.animatedText {
+  color: white;
+  font-size: 21vw;
+  font-family: JockeyOne;
+  text-align: center;
+  transition-duration: 250ms;
+}
+
+.animatedText:hover {
+  font-size: 21.3vw;
+  transition-duration: 250ms;
+}
+
+.text {
+  color: #0038FF;
+  font-family: JockeyOne;
+  font-size: 21vw;
+  text-align: center;
+  transition-duration: 250ms;
+
+}
+
+.text:hover {
+  font-size: 21.3vw;
+  transition-duration: 250ms;
+}
+
+.profile{
+  position:-ms-page;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+  bottom: 0px;
+  gap: 30px;
+  flex-direction: row;
+
+}
+
+.imgname {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.logo {
+  width: 12em;
+}
+
+.name {
+color: #FFF;
+text-align: center;
+font-size: 4em;
+font-family: JockeyOne;
+}
+
+.aboutme{
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Kanit;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  max-width: 85%;
+  min-width: 350px;
 }
