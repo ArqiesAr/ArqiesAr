@@ -117,7 +117,7 @@ export default function Home() {
         </motion.div>
 
 <div className='dls bg-slate-900'>
-        <Iframe url="https://arqies.com"
+        <Iframe url="https://downloads.arqies.com"
         width="100%"
         height="720px"
         id=""
