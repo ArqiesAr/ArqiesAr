@@ -8,7 +8,7 @@ import youtube from './images/youtube-symbol1.png'
 const TEXTS = ['Website?', 'Software?', 'Bot?' , 'Plugin?'];
 
 
-export default function hire(){
+export default function Hire(){
 
     const [index, setIndex] = React.useState(0);
 
