@@ -18,9 +18,6 @@ import Hire from './hires'
 
 const TEXTS = ['Create', 'Code', 'Design'];
 
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
 
 export default function Home() {
 
