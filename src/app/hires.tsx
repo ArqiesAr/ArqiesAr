@@ -1,17 +1,10 @@
 "use client";
+import Image from 'next/image'
+import logo from './logo.png'
 import TextTransition, { presets } from 'react-text-transition';
 import { motion } from 'framer-motion';
 import React from 'react';
-import Image from 'next/image'
-import './hires.css'
-import dc from './images/dc.png'
-import spoti from './images/spoti.png'
-import git from './images/git.png'
-import twit from './images/Twit.png'
-import insta from './images/insta.png'
-import red from './images/red.png'
-import pin from './images/pin.png'
-import mail from './images/mail.png'
+import youtube from './images/youtube-symbol1.png'
 const TEXTS = ['Website?', 'Software?', 'Bot?' , 'Plugin?'];
 
 
