@@ -199,12 +199,31 @@ font-family: JockeyOne;
 
 .dls {
   display: flex;
-  gap: 10px;
+  gap: 6px;
   padding: 10px;
-  width: 90%;
+  min-width: 85%;
+  width: 85%;
   border-radius: 20px;
-  border-color: #FFF;
+  background-color: #111;
 }
+
+.btn-hir {
+  background: #121212;
+  width: 150px;
+  height: 33px;
+  border-radius: 50px;
+
+}
+
+.btn-hir:hover{
+  background: #181818;
+}
+
+.txt-hir {
+  font-size: xx-large;
+
+}
+
 
 ::-webkit-scrollbar {
             width: 7px;

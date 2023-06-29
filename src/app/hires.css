@@ -1,0 +1,40 @@
+.hiretext {
+
+color: white;
+font-family: JockeyOne;
+font-size: 8vw;
+text-align: center;
+transition-duration: 250ms;
+}
+
+.bigh {
+ gap: 1em;
+}
+
+
+
+.aniH {
+    font-family: JockeyOne;
+    font-size: 8vw;
+    text-align: center;
+    transition-duration: 250ms;
+}
+
+
+.medialist{
+    height: 6em;
+}
+
+.testcolore {
+    filter: invert(0.9);
+    width: 4.5em;
+    transition-duration: 250ms;
+  
+    
+  }
+  
+  .testcolore:hover {
+    filter: invert(1);
+    width: 5em;
+    transition-duration: 250ms;
+  }

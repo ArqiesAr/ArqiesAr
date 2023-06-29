@@ -14,10 +14,9 @@ import red from './images/red.png'
 import pin from './images/pin.png'
 import mail from './images/mail.png'
 import Iframe from 'react-iframe'
+import Hire from './hires'
 
 const TEXTS = ['Create', 'Code', 'Design'];
-
-
 
 export default function Home() {
 
@@ -107,7 +106,6 @@ export default function Home() {
 
                 <a href="https://twitter.arqies.com" target="_blank"><Image alt='as' className="testcolor"src={twit} ></Image></a>
                 <a href="https://youtube.arqies.com" target="_blank"> <Image alt='as' className="testcolor"src={youtube} ></Image></a>
-
             </li>
 
             </div>
@@ -116,7 +114,8 @@ export default function Home() {
 
         </motion.div>
 
-<div className='dls bg-slate-900'>
+<div className='flex flex-col items-center justify-center' style={{minWidth:'100%'}}>
+<div className='dls'>
         <Iframe url="https://downloads.arqies.com"
         width="100%"
         height="720px"
@@ -126,8 +125,8 @@ export default function Home() {
         position="relative"/>
 </div>
 
-
-
+<Hire/>
+</div>
             </motion.div>
 
 
