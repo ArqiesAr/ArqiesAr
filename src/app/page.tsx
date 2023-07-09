@@ -103,8 +103,6 @@ export default function Home() {
                 <a href="https://github.arqies.com" target="_blank" ><Image alt='as' className="testcolor"src={git} ></Image></a>
                 <a href="https://instagram.arqies.com" target="_blank"><Image alt='as' className="testcolor"src={insta} ></Image></a>
               
-                <a href="https://spotify.arqies.com"target="_blank" ><Image alt='as' className="testcolor"src={spoti} ></Image></a>
-
                 <a href="https://twitter.arqies.com" target="_blank"><Image alt='as' className="testcolor"src={twit} ></Image></a>
                 <a href="https://youtube.arqies.com" target="_blank"> <Image alt='as' className="testcolor"src={youtube} ></Image></a>
             </li>
