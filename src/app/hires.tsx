@@ -34,7 +34,7 @@ export default function Hire(){
 
 <div className='flex bigh'>
 
-<h1 className='hiretext'>Need </h1> <h1 className='hiretext'>a</h1>  <TextTransition className='aniH' delay={3} springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>
+<h1 className='hiretext'>Need </h1> <TextTransition className='aniH' delay={3} springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>
 </div>
 
 <div className='flex gap-0'>
