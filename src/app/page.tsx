@@ -94,7 +94,7 @@ export default function Home() {
           <div className='flex flex-col abmedia justify-center items-center'>
             <p className='aboutme'>Hi, I am Arqies. I am a developer who lives in India. I am constantly learning new things and like working on new and unique projects, while improving and expanding my knowledge of different things.</p>
 
-            <div className='flex gap-0'>
+            
       
 
             </div>
