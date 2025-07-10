@@ -95,17 +95,7 @@ export default function Home() {
             <p className='aboutme'>Hi, I am Arqies. I am a developer who lives in India. I am constantly learning new things and like working on new and unique projects, while improving and expanding my knowledge of different things.</p>
 
             <div className='flex gap-0'>
-            <li className="flex flex-warp gap-5 medialist">
-                
-                <a href="https://discord.arqies.com" target="_blank" ><Image alt='as' className="testcolor"src={dc} ></Image></a>
-                
-                <a href="mailto: contact@arqies.com" target="_blank" ><Image alt='as' className="testcolor"src={mail} ></Image></a>
-                <a href="https://github.arqies.com" target="_blank" ><Image alt='as' className="testcolor"src={git} ></Image></a>
-                <a href="https://instagram.arqies.com" target="_blank"><Image alt='as' className="testcolor"src={insta} ></Image></a>
-              
-                <a href="https://twitter.arqies.com" target="_blank"><Image alt='as' className="testcolor"src={twit} ></Image></a>
-                <a href="https://youtube.arqies.com" target="_blank"> <Image alt='as' className="testcolor"src={youtube} ></Image></a>
-            </li>
+      
 
             </div>
             </div>
