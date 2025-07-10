@@ -14,7 +14,7 @@ import red from './images/red.png'
 import pin from './images/pin.png'
 import './hires.css'
 import mail from './images/mail.png'
-const TEXTS = ['Socials.', 'Contacts.'];
+const TEXTS = ['Socials', 'Contacts'];
 
 
 export default function Hire(){
